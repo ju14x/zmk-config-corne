@@ -55,3 +55,9 @@
                 };
         };
 };
+
+/ {
+    chosen {
+        zmk,backlight = &backlight;
+    };
+}:
